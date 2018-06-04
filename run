@@ -2,4 +2,4 @@
 
 set -ex
 
-germinate --no-rdepends --no-installer -S https://metadata.neon.kde.org/germinate/seeds -d bionic -s neon.bionic
+germinate --no-rdepends --no-installer -S https://metadata.neon.kde.org/germinate/seeds -d $GERMINATE_DIST -s neon.$GERMINATE_DIST
